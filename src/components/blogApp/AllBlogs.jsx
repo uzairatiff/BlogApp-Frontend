@@ -33,7 +33,7 @@ const AllBlogs = () => {
         <div className="flex flex-col sm:flex-row justify-between items-center mb-12 gap-4">
           <div className="w-full sm:w-auto">
             <Link 
-              to="/" 
+              to="/home" 
               className="inline-flex items-center px-6 py-3 bg-white border border-gray-300 rounded-lg shadow-sm text-gray-700 font-medium hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition-all"
             >
               ← Return to Home

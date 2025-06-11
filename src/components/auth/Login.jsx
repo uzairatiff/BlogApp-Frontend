@@ -22,7 +22,7 @@ const Login = () => {
     try {
       const UserCredentials = await signInWithEmailAndPassword(auth, email, password)
       toast.success("Login successful!");
-      navigate('/')
+      navigate('/home')
     } catch (error) {
       toast.error("Login failed: " + error.message);
     } finally {
