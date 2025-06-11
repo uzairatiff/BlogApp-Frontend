@@ -17,7 +17,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path='/' element={<Signup />} />
         <Route path="/Allblogs" element={<AllBlogs />} />
         <Route path="/updateForm" element={<UpdateForm />} />
         <Route path='/home' element={<Home />} />  {/* Add this line */}
